@@ -125,7 +125,7 @@ Eight runnable scripts under `examples/`:
 |--------|--------------|
 | `01_advdiff_flower.py` | Flower advection-diffusion, validation. Default single run; `--n-interior 30 50 80` reproduces Table 3; `--nu-sweep` reproduces Table 7. |
 | `03_advdiff_gear.py` | Gear advection-diffusion, validation. `--n-interior 30 50 80` reproduces Table 4. |
-| `05_pure_convection_flower.py` | Flower, hyper-viscosity ($\varepsilon\Delta^2$). `--eps-sweep` reproduces Table 8. |
+| `05_pure_convection_flower.py` | Flower, hyper-viscosity ($\varepsilon\Delta^2$). `--epsilon-sweep` reproduces Table 8. |
 | `06_pure_convection_gear.py` | Gear, hyper-viscosity. |
 | `07_simulation_only.py` | User-supplied IC/BC, no manufactured solution. |
 | `08_section_6_3_tau_sweep.py` | Section 6.3 $\tau$ sweep with the tension kernel, produces `results/exp_convergence_sweep.csv` (Table 5). |
@@ -169,7 +169,7 @@ in editable mode (`pip install -e .`).
 | **Table 5** -- $\tau$ sweep (Section 6.3) | `python examples/08_section_6_3_tau_sweep.py` |
 | **Table 6** -- thin-plate-spline convergence (Section 6.3) | `python examples/09_section_6_3_tps_convergence.py` |
 | **Table 7** -- $\nu$ sweep on flower, $n=80$ | `python examples/01_advdiff_flower.py --nu-sweep --t-final 500 --dt 0.01` |
-| **Table 8** -- hyper-viscosity $\varepsilon$ sweep | `python examples/05_pure_convection_flower.py --eps-sweep --t-final 500 --dt 0.01` |
+| **Table 8** -- hyper-viscosity $\varepsilon$ sweep | `python examples/05_pure_convection_flower.py --epsilon-sweep --t-final 500 --dt 0.01` |
 | **Figure 1** -- collocation point distributions | `python examples/01_advdiff_flower.py --plot` and `python examples/03_advdiff_gear.py --plot` |
 | **Figures 2--4** -- solutions / error contours on flower & gear | `python examples/01_advdiff_flower.py --plot --t-final 500 --dt 0.01` and `python examples/03_advdiff_gear.py --plot --t-final 500 --dt 0.01` |
 | **Figure 5** -- $E_\infty$ vs $\nu$ | `python examples/01_advdiff_flower.py --nu-sweep --plot --t-final 500 --dt 0.01` |

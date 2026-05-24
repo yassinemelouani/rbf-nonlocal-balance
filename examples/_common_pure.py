@@ -31,9 +31,9 @@ class RunConfig:
     t_final:    float = 5.0
 
 
-# Table 5 of the paper sweeps epsilon over four orders of magnitude.
+# Table 8 of the paper sweeps epsilon at fixed n = 80.
 DEFAULT_RESOLUTIONS    = (30, 50, 80)
-DEFAULT_EPSILON_VALUES = (1.0e-3, 1.0e-4, 1.0e-5, 1.0e-6)
+DEFAULT_EPSILON_VALUES = (5.0e-7, 1.0e-6, 5.0e-6, 1.0e-5, 5.0e-5, 1.0e-4)
 DEFAULT_T_FINAL        = 5.0
 DEFAULT_DT             = 0.01
 

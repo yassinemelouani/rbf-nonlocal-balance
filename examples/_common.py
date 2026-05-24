@@ -36,7 +36,7 @@ class RunConfig:
 # {1e-2, 1e-3, 1e-4, 1e-5} for the nu sweep; a single default run uses
 # n_interior = n_boundary = 80 and nu = 1e-2.
 DEFAULT_RESOLUTIONS = (30, 50, 80)
-DEFAULT_NU_VALUES   = (1.0e-2, 1.0e-3, 1.0e-4, 1.0e-5)
+DEFAULT_NU_VALUES   = (2.0, 1.0, 0.5, 0.1, 0.05, 0.01, 0.005)
 DEFAULT_T_FINAL     = 5.0
 DEFAULT_DT          = 0.01
 
