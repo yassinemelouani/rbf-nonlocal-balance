@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rbf-nonlocal-balance"
+version = "0.1.0"
+description = "Meshless RBF-BDF solver for nonlocal balance equations on irregular 2D domains."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Yassine Melouani" },
+    { name = "Abderrahman Bouhamidi" },
+    { name = "Imad El Harraki" },
+]
+keywords = [
+    "radial basis functions",
+    "meshless methods",
+    "nonlocal balance equations",
+    "BDF",
+    "Newton-Krylov",
+    "hyper-viscosity",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = [
+    "numpy>=1.22",
+    "scipy>=1.10",
+    "matplotlib>=3.5",
+    "joblib>=1.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "black>=23.0", "ruff>=0.1.0"]
+
+[project.urls]
+Homepage = "https://github.com/yassinemelouani/rbf-nonlocal-balance"
+Issues   = "https://github.com/yassinemelouani/rbf-nonlocal-balance/issues"
+
+[tool.setuptools.packages.find]
+include = ["rbf_nonlocal*"]
+exclude = ["tests*", "examples*"]
+
+[tool.black]
+line-length = 100
+target-version = ["py39"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
