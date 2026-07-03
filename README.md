@@ -216,7 +216,7 @@ rbf_nonlocal/
 If you use this software, please cite the accompanying paper:
 
 ```bibtex
-@article{melouani2025meshless,
+@article{melouani2026meshless,
 author   = {Melouani, Yassine and Bouhamidi, Abderrahman and El Harraki, Imad},
   title    = {A meshless radial basis function method for nonlocal balance equations},
   journal  = {Engineering Analysis with Boundary Elements},
