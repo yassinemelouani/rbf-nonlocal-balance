@@ -217,9 +217,14 @@ If you use this software, please cite the accompanying paper:
 
 ```bibtex
 @article{melouani2025meshless,
-  author  = {Melouani, Yassine and Bouhamidi, Abderrahman and {El Harraki}, Imad},
-  title   = {A Meshless Radial Basis Function Method for Nonlocal Balance Equations},
-  year    = {2026},
+author   = {Melouani, Yassine and Bouhamidi, Abderrahman and El Harraki, Imad},
+  title    = {A meshless radial basis function method for nonlocal balance equations},
+  journal  = {Engineering Analysis with Boundary Elements},
+  volume   = {190},
+  pages    = {106891},
+  year     = {2026},
+  issn     = {0955-7997},
+  doi      = {10.1016/j.enganabound.2026.106891}
 }
 ```
 
