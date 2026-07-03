@@ -1,11 +1,11 @@
-cff-version: 1.2.0
+cff-version: 1.2.1
 message: "If you use this software, please cite both the software and the paper below."
 type: software
 title: "rbf-nonlocal-balance"
 abstract: >-
   A meshless radial basis function (RBF) + BDF solver for nonlocal balance
   equations on irregular two-dimensional domains, implementing the numerical
-  scheme of Melouani, Bouhamidi and El Harraki (2025).
+  scheme of Melouani, Bouhamidi and El Harraki (2026).
 authors:
   - family-names: Melouani
     given-names: Yassine
@@ -13,21 +13,21 @@ authors:
     given-names: Abderrahman
   - family-names: El Harraki
     given-names: Imad
-version: "0.1.0"
-date-released: "2025-01-01"
+version: "1.0.0"
+date-released: "2026-01-01"
 license: MIT
 repository-code: "https://github.com/yassinemelouani/rbf-nonlocal-balance"
 keywords:
-  - radial basis functions
-  - meshless methods
-  - nonlocal balance equations
-  - BDF time stepping
-  - Newton-Krylov
-  - hyper-viscosity
+  - "radial basis functions"
+  - "meshless methods"
+  - "nonlocal balance equations"
+  - "BDF time stepping"
+  - "Newton-Krylov"
+  - "hyper-viscosity"
 
 preferred-citation:
   type: article
-  title: "A Meshless Radial Basis Function Method for Nonlocal Balance Equations"
+  title: "A meshless radial basis function method for nonlocal balance equations"
   authors:
     - family-names: Melouani
       given-names: Yassine
@@ -35,4 +35,8 @@ preferred-citation:
       given-names: Abderrahman
     - family-names: El Harraki
       given-names: Imad
-  year: 2025
+  journal: "Engineering Analysis with Boundary Elements"
+  volume: 190
+  pages: 106891
+  year: 2026
+  doi: "10.1016/j.enganabound.2026.106891"
